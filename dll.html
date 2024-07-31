@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M Rifki Adi Setiawan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparant">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">Mr As</a>
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="dll.html">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="dll.html#my-project"
+                >Portofolio</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="dll.html#contact"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn" type="submit">Download CV</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about rounded p-3 hidden" id="about">
+      <div class="judul-about d-flex gap-3 align-items-center flex-wrap">
+        <h3 class="fw-bold m-0">About Me</h3>
+        <div class="garis"></div>
+      </div>
+      <div class="main-about row">
+        <div class="col-md-4 d-flex justify-content-center">
+          <img
+            src="asset/img/orang.png"
+            alt="mrifki"
+            class="img-fluid mx-auto"
+          />
+        </div>
+        <div class="col-md-8 d-flex">
+          <div class="garis-lurus"></div>
+          <div class="w-100">
+            <ul class="nav nav-underline" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active text-white"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  <p class="mx-4 my-0">My Profile</p>
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active text-white m-2"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+                <p>
+                  Hi, I'm
+                  <span class="fw-bold" style="color: #d5f60c"
+                    >M Rifki Adi Setiawan</span
+                  >, a 17-year-old web developer from Bangkalan, Madura, East
+                  Java. I have a passion for creating beautiful and functional
+                  websites. With a strong foundation in HTML, CSS, JavaScript,
+                  Bootstrap, Tailwind, Laravel, and Next.js, I bring ideas to
+                  life on the web. When I'm not coding, I enjoy playing games to
+                  unwind and get inspired. Let's build something amazing
+                  together!
+                </p>
+                <p>Don't forget to check out my social media</p>
+                <div
+                  class="d-flex justify-content-start align-items-center gap-5 flex-wrap"
+                >
+                  <div class="bg-sosmed">
+                    <a
+                      href="https://www.instagram.com/mrifkii.as/"
+                      target="_blank"
+                      ><i class="fa-brands fa-lg fa-instagram icon-sosmed"></i
+                    ></a>
+                  </div>
+                  <div class="bg-sosmed">
+                    <a href="https://github.com/rifkigg" target="_blank"
+                      ><i class="fa-brands fa-lg fa-github icon-sosmed"></i
+                    ></a>
+                  </div>
+                  <div class="bg-sosmed">
+                    <a href="https://wa.me/087755962888" target="_blank"
+                      ><i class="fa-brands fa-lg fa-whatsapp icon-sosmed"></i
+                    ></a>
+                  </div>
+                  <div class="bg-sosmed">
+                    <a
+                      href="https://www.youtube.com/channel/UC67TZBqD-SSh9kouhhUPf2Q"
+                      target="_blank"
+                      ><i class="fa-brands fa-lg fa-youtube icon-sosmed"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="infinite-scroll">
+        <div class="scroll-content d-flex">
+          <div class="badge m-2">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-bootstrap"></i>
+            Bootstrap
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-laravel"></i>
+            Laravel
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-react"></i>
+            Next.js
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-bootstrap"></i>
+            Bootstrap
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-laravel"></i>
+            Laravel
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-react"></i>
+            Next.js
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-bootstrap"></i>
+            Bootstrap
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-laravel"></i>
+            Laravel
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-react"></i>
+            Next.js
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-bootstrap"></i>
+            Bootstrap
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-laravel"></i>
+            Laravel
+          </div>
+          <div class="badge m-2">
+            <i class="fa-brands fa-react"></i>
+            Next.js
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 hidden">
+      <h1 class="text-white text-center" id="my-project">My Project</h1>
+      <nav>
+        <div
+          class="nav nav-underline w-75 mx-auto d-flex mt-2 overflow-auto flex-nowrap"
+          id="nav-tab"
+          role="tablist"
+          style="white-space: nowrap"
+        >
+          <button
+            class="nav-link active text-white"
+            id="nav-html-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-html"
+            type="button"
+            role="tab"
+            aria-controls="nav-html"
+            aria-selected="true"
+            style="min-width: 150px"
+          >
+            HTML CSS JS
+          </button>
+          <button
+            class="nav-link text-white"
+            id="nav-laravel-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-laravel"
+            type="button"
+            role="tab"
+            aria-controls="nav-laravel"
+            aria-selected="false"
+            style="min-width: 150px"
+          >
+            PHP and Laravel
+          </button>
+          <button
+            class="nav-link text-white"
+            id="nav-next-js-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-next-js"
+            type="button"
+            role="tab"
+            aria-controls="nav-next-js"
+            aria-selected="false"
+            style="min-width: 150px"
+          >
+            Next js
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content mt-5" id="nav-tabContent">
+        <!-- HTML CSS JS -->
+        <div
+          class="tab-pane fade show active"
+          id="nav-html"
+          role="tabpanel"
+          aria-labelledby="nav-html-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img
+                  src="/asset/img/preview/tic-tac-toe.png"
+                  alt="tic tac toe"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Game Tic Tac Toe</h5>
+                  <p class="card-text">
+                    This is a tic tac toes game website that can be played by 2
+                    people
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://github.com/rifkigg/Game-Tic-Tac-Toe"
+                      target="_blank"
+                      class="btn"
+                      >Code</a
+                    >
+                    <a
+                      href="https://rifkigg.github.io/Game-Tic-Tac-Toe/"
+                      target="_blank"
+                      class="btn"
+                      >Demo</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img
+                  src="/asset/img/preview/company-website.png"
+                  alt="tic tac toe"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Company Website</h5>
+                  <p class="card-text">
+                    This is a company website that only uses html css and js
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://github.com/rifkigg/Web-Porto-DLB"
+                      target="_blank"
+                      class="btn"
+                      >Code</a
+                    >
+                    <a
+                      href="https://rifkigg.github.io/Web-Porto-DLB/"
+                      target="_blank"
+                      class="btn"
+                      >Demo</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Laravel -->
+        <div
+          class="tab-pane fade"
+          id="nav-laravel"
+          role="tabpanel"
+          aria-labelledby="nav-laravel-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img
+                  src="/asset/img/preview/kompres-pdf.jpeg"
+                  alt="kompres-pdf"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Compress PDF File</h5>
+                  <p class="card-text">
+                    This is a website to compress the size of pdf files
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://github.com/rifkigg/Kompres-PDF"
+                      target="_blank"
+                      class="btn"
+                      >Code</a
+                    >
+                    <a target="_blank" class="btn" onclick="noDeploy()">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img
+                  src="/asset/img/preview/pemilihan-ketua-osis.png"
+                  alt="tic tac toe"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Osis Chairman Election Website</h5>
+                  <p class="card-text">
+                    This is the website for the election of the student council
+                    president.
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://github.com/rifkigg/Pemilihan_Ketua_Osis"
+                      target="_blank"
+                      class="btn"
+                      >Code</a
+                    >
+                    <a target="_blank" class="btn" onclick="noDeploy()">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next.js -->
+        <div
+          class="tab-pane fade"
+          id="nav-next-js"
+          role="tabpanel"
+          aria-labelledby="nav-next-js-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img src="/asset/img/preview/ci-anime.png" alt="ci-anime" />
+                <div class="card-body">
+                  <h5 class="card-title">CI ANIME</h5>
+                  <p class="card-text">
+                    This is a website to watch anime for free
+                  </p>
+                  <div class="d-flex gap-3">
+                    <a
+                      href="https://github.com/rifkigg/CI-ANIME"
+                      target="_blank"
+                      class="btn"
+                      >Code</a
+                    >
+                    <a target="_blank" class="btn" onclick="noDeploy()">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-white mt-5 hidden" id="contact">
+      <h1 class="text-center">Contact Me</h1>
+      <p class="text-center">Please fill out the form below to contact me</p>
+      <div class="">
+        <form
+          id="contact-form"
+          action="https://script.google.com/macros/s/AKfycbyeIj90tHUDWotDufCPEyhaTOJnsTaE_lmXeUXKEni0BO5APozOqyYnodpyciy5RRZF/exec"
+          method="post"
+          target="hidden_iframe"
+          onsubmit="this.submit();"
+        >
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="nama"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+        <iframe
+          name="hidden_iframe"
+          id="hidden_iframe"
+          style="display: none"
+          onload="handleIframeLoad()"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer class="text-center mt-5 hidden p-3 p-sm-5">
+      <h1>Thank you for visiting my portfolio!</h1>
+      <h3>And don't forget following my social media 😁</h3>
+      <div
+        class="my-5 d-flex justify-content-center align-items-center gap-5 flex-wrap"
+      >
+        <div class="bg-sosmed">
+          <a href="https://www.instagram.com/mrifkii.as/" target="_blank"
+            ><i class="fa-brands fa-lg fa-instagram icon-sosmed"></i
+          ></a>
+        </div>
+        <div class="bg-sosmed">
+          <a href="https://github.com/rifkigg" target="_blank"
+            ><i class="fa-brands fa-lg fa-github icon-sosmed"></i
+          ></a>
+        </div>
+        <div class="bg-sosmed">
+          <a href="https://wa.me/087755962888" target="_blank"
+            ><i class="fa-brands fa-lg fa-whatsapp icon-sosmed"></i
+          ></a>
+        </div>
+        <div class="bg-sosmed">
+          <a
+            href="https://www.youtube.com/channel/UC67TZBqD-SSh9kouhhUPf2Q"
+            target="_blank"
+            ><i class="fa-brands fa-lg fa-youtube icon-sosmed"></i
+          ></a>
+        </div>
+      </div>
+      <p class="text-center text-white m-0 fw-bold">
+        Copyright &copy; 2024 - M Rifki Adi Setiawan
+      </p>
+    </footer>
+    <button
+      id="toTopBtn"
+      class="btn-up"
+      style="display: none; position: fixed; bottom: 20px; right: 20px"
+    >
+      <i class="fa-solid fa-arrow-up fa-lg"></i>
+    </button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/87dd173a0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
